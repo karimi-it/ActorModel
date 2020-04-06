@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Broker</OriginalElement>
+  <nodes>
+    <node x="350.0" y="385.0">Order</node>
+    <node x="0.0" y="311.0">Broker</node>
+    <node x="0.0" y="538.0">DBConnect</node>
+    <node x="7.0" y="158.0">PriceTimePriority</node>
+    <node x="329.0" y="464.0">EquityOrder</node>
+    <node x="93.5" y="385.0">Message</node>
+    <node x="156.0" y="538.0">OrderBook</node>
+    <node x="219.99999999999997" y="311.0">Symbol</node>
+    <node x="312.0" y="538.0">Host</node>
+    <node x="109.99999999999997" y="311.0">Logger</node>
+    <node x="330.0" y="311.0">Market</node>
+    <node x="0.0" y="0.0">java.lang.FunctionalInterface</node>
+    <node x="0.0" y="464.0">MatchMessage</node>
+    <node x="170.99999999999997" y="232.0">akka.actor.UntypedAbstractActor</node>
+    <node x="152.0" y="464.0">OrderMessage</node>
+    <node x="23.5" y="75.0">java.util.Comparator</node>
+    <node x="440.0" y="311.0">Router_test</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.Comparator" target="java.lang.FunctionalInterface">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Logger" target="akka.actor.UntypedAbstractActor">
+      <point x="0.0" y="-14.5" />
+      <point x="154.99999999999997" y="291.0" />
+      <point x="227.39999999999995" y="291.0" />
+      <point x="-37.60000000000002" y="14.5" />
+    </edge>
+    <edge source="MatchMessage" target="Message">
+      <point x="0.0" y="-14.5" />
+      <point x="66.0" y="439.0" />
+      <point x="117.75" y="439.0" />
+      <point x="-24.25" y="14.5" />
+    </edge>
+    <edge source="Market" target="akka.actor.UntypedAbstractActor">
+      <point x="0.0" y="-14.5" />
+      <point x="375.0" y="291.0" />
+      <point x="302.5999999999999" y="291.0" />
+      <point x="37.599999999999966" y="14.5" />
+    </edge>
+    <edge source="EquityOrder" target="Order">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="OrderMessage" target="Message">
+      <point x="0.0" y="-14.5" />
+      <point x="218.0" y="439.0" />
+      <point x="166.25" y="439.0" />
+      <point x="24.25" y="14.5" />
+    </edge>
+    <edge source="Router_test" target="akka.actor.UntypedAbstractActor">
+      <point x="0.0" y="-14.5" />
+      <point x="502.5" y="281.0" />
+      <point x="340.19999999999993" y="281.0" />
+      <point x="75.19999999999993" y="14.5" />
+    </edge>
+    <edge source="Symbol" target="akka.actor.UntypedAbstractActor">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Broker" target="akka.actor.UntypedAbstractActor">
+      <point x="0.0" y="-14.5" />
+      <point x="45.0" y="281.0" />
+      <point x="189.79999999999998" y="281.0" />
+      <point x="-75.19999999999999" y="14.5" />
+    </edge>
+    <edge source="PriceTimePriority" target="java.util.Comparator">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="282.5" y="283.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
